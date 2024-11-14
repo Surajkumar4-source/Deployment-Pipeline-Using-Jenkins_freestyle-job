@@ -1,17 +1,19 @@
 # Implementing Automated Docker Deployment Pipeline Using Jenkins.
 
-### This guide will walk you through setting up a continuous deployment pipeline that integrates Jenkins, GitHub, and Docker (or Podman) for automated deployment of containerized applications.
+### *This guide will walk you through setting up a continuous deployment pipeline that integrates Jenkins, GitHub, and Docker (or Podman) for automated deployment of containerized applications.*
 
 <br>
+
 ## Why Use Jenkins for CI/CD?
 
 ### Jenkins is a powerful open-source automation server that enables continuous integration (CI) and continuous deployment (CD) of your projects. By setting up a CI/CD pipeline with Jenkins, you automate the process of code testing, Docker image building, and deployment, allowing for faster development cycles and more reliable deployments.
 
 <br>
+
 ## Prerequisites
  **Before starting, ensure the following requirements are met:**
 
-1. A Linux server (CentOS/RHEL or Ubuntu preferred).
+1. A Linux server (CentOS/RHEL/UBUNTU , I preferd Rocky Linux of RHEL).
 2. Jenkins installed and running on your server.
 3. Podman (or Docker) installed for container management.
 4. A GitHub repository to push your code.
@@ -98,7 +100,7 @@ sudo yum install git -y
 ### Step 2: Configure Jenkins to Build and Deploy Containers
 
 #### 2.1 Create a Jenkins Job to Pull Code from GitHub
-1. Log in to Jenkins by navigating to http://<your-server-ip>:8080.
+1. Log in to Jenkins by navigating to http: // your-server-ip:8080.
 
 2.  Create a New Freestyle Project:
      - Go to New Item, enter a name (e.g., fetch-code), and select Freestyle Project.
@@ -236,4 +238,173 @@ sudo podman rm $(sudo podman ps -a -q)  # Removes stopped containers
 sudo podman rmi $(sudo podman images -q) # Removes unused images
 
 ```
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+### Conclusion
+#### By implementing this CI/CD pipeline, I’ve gained practical experience in setting up an automated workflow using Jenkins, GitHub, and  Podman. I have learned how to:
+
+- Automate code pulls from GitHub: Using Jenkins jobs and Poll SCM to check for code changes regularly.
+- Build and deploy Docker images: Automating the creation and deployment of containerized applications.
+- Establish a fully automated, efficient deployment process: Enhancing productivity by reducing manual intervention and ensuring consistency across builds and deployments.
+
+  
+*This setup is an excellent foundation for continuous delivery in development and staging environments, promoting faster iteration, reduced error rates, and greater deployment consistency.
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+
+
+## ------------------Screnshots--------------------
+1.
+<br>
+<br>
+
+
+![Alt text for image](screenshots/1.png)
+
+2.
+<br>
+<br>
+
+
+![Alt text for image](screenshots/2.png)
+
+
+3.
+<br>
+<br>
+
+
+![Alt text for image](screenshots/3.png)
+
+<br>
+<br>
+
+
+4.
+<br>
+<br>
+
+
+![Alt text for image](screenshots/4.png)
+
+<br>
+<br>
+
+5.
+<br>
+<br>
+
+## -------We pushed our image to the DockerHub-------------
+
+![Alt text for image](screenshots/5.png)
+
+<br>
+<br>
+
+
+
+
+
+<br>
+<br>
+
+6.
+<br>
+<br>
+
+## -------We pushed our image to the DockerHub-------------
+
+![Alt text for image](screenshots/6.png)
+
+<br>
+<br>
+
+
+
+
+<br>
+<br>
+
+7.
+<br>
+<br>
+
+## -------We pushed our image to the DockerHub-------------
+
+![Alt text for image](screenshots/7.png)
+
+<br>
+<br>
+
+
+
+
+
+<br>
+<br>
+
+8.
+<br>
+<br>
+
+## -------We pushed our image to the DockerHub-------------
+
+![Alt text for image](screenshots/8.png)
+
+<br>
+<br>
+
+
+
+
+
+<br>
+<br>
+
+9.
+<br>
+<br>
+
+## -------We pushed our image to the DockerHub-------------
+
+![Alt text for image](screenshots/9.png)
+
+<br>
+<br>
+
+
+
+
+<br>
+<br>
+
+10.   ----Finaly Output When I pushed the code Application is Automatically Updated.
+<br>
+<br>
+
+## -------We pushed our image to the DockerHub-------------
+
+![Alt text for image](screenshots/10.png)
+
+<br>
+<br>
+
 
