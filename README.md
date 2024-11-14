@@ -394,7 +394,7 @@ sudo podman rmi $(sudo podman images -q) # Removes unused images
 <br>
 <br>
 
-10.  
+10. ---Final output when we push the new code ,an Application is Automatically Updated---
 <br>
 <br>
 
