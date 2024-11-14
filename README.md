@@ -312,7 +312,6 @@ sudo podman rmi $(sudo podman images -q) # Removes unused images
 <br>
 <br>
 
-## -------We pushed our image to the DockerHub-------------
 
 ![Alt text for image](screenshots/5.png)
 
@@ -330,7 +329,7 @@ sudo podman rmi $(sudo podman images -q) # Removes unused images
 <br>
 <br>
 
-## -------We pushed our image to the DockerHub-------------
+
 
 ![Alt text for image](screenshots/6.png)
 
@@ -347,7 +346,6 @@ sudo podman rmi $(sudo podman images -q) # Removes unused images
 <br>
 <br>
 
-## -------We pushed our image to the DockerHub-------------
 
 ![Alt text for image](screenshots/7.png)
 
@@ -365,7 +363,6 @@ sudo podman rmi $(sudo podman images -q) # Removes unused images
 <br>
 <br>
 
-## -------We pushed our image to the DockerHub-------------
 
 ![Alt text for image](screenshots/8.png)
 
@@ -383,24 +380,24 @@ sudo podman rmi $(sudo podman images -q) # Removes unused images
 <br>
 <br>
 
-## -------We pushed our image to the DockerHub-------------
+
 
 ![Alt text for image](screenshots/9.png)
 
-<br>
-<br>
-
-
-
 
 <br>
 <br>
 
-10.   ----Finaly Output When I pushed the code Application is Automatically Updated.
+
+
+
 <br>
 <br>
 
-## -------We pushed our image to the DockerHub-------------
+10.  
+<br>
+<br>
+
 
 ![Alt text for image](screenshots/10.png)
 
