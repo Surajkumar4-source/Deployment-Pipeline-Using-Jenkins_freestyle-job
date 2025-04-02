@@ -1,6 +1,6 @@
 # Implementing Automated Docker Deployment Pipeline Using Jenkins.
 
-### *This guide will walk you through setting up a continuous deployment pipeline that integrates Jenkins, GitHub, and Docker (or Podman) for automated deployment of containerized applications.*
+### *This guide will walk you through automates CI/CD using Jenkins, GitHub, and Podman (or Docker) to streamline containerized application deployment. The pipeline pulls the latest code from GitHub, builds a Docker image, and deploys it automatically. It includes Jenkins job triggers, GitHub polling, and container management, ensuring seamless updates with minimal manual intervention. 🚀*
 
 <br>
 
